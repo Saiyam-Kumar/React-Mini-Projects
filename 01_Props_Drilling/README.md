@@ -1,16 +1,122 @@
-# React + Vite
+# React Prop Drilling and Student Profile Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React project demonstrating **Prop Drilling** by passing student data through multiple components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📚 About the Project
 
-## React Compiler
+This project explains the concept of **Prop Drilling** in React.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Student information is created inside the **App** component and passed through multiple intermediate components until it reaches the final **Home** component, where it is displayed as a Student Profile Card.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- React Functional Components
+- Props
+- Prop Drilling
+- Component Hierarchy
+- Student Profile Card
+- Simple and Beginner-Friendly UI
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- Vite
+- JSX
+- CSS
+
+---
+
+## 📂 Component Flow
+
+```
+App
+ │
+ ▼
+Grandfather
+ │
+ ▼
+Father
+ │
+ ▼
+Child
+ │
+ ▼
+Home (Student Profile)
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src
+│
+├── components
+│   ├── Grandfather.jsx
+│   ├── Father.jsx
+│   ├── Child.jsx
+│   ├── Home.jsx
+│   └── Home.css
+│
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+---
+
+## 📸 Project Preview
+
+![React Prop Drilling Demo](Screenshots/Image1.png)
+
+---
+
+## 💡 What I Learned
+
+- Creating React Functional Components
+- Passing data using Props
+- Understanding Prop Drilling
+- Component Reusability
+- Basic React Project Structure
+
+---
+
+## ▶️ Run the Project
+
+Clone the repository
+
+```bash
+git clone <repository-link>
+```
+
+Go to the project folder
+
+```bash
+cd 01_Props_Drilling
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+**Saiyam Kumar**
+
+Learning React.js 🚀
