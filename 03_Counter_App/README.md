@@ -1,16 +1,140 @@
-# React + Vite
+# 🔢 React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React project demonstrating the **useState Hook** by building a simple Counter Application.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📚 About the Project
 
-## React Compiler
+This project demonstrates how the **useState Hook** works in React.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Users can increment, decrement, and reset the counter using buttons. The counter value updates dynamically without reloading the page.
 
-## Expanding the ESLint configuration
+Additionally, the counter changes color based on its value:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🟢 Green for zero and positive numbers
+- 🔴 Red for negative numbers
+
+---
+
+## 🚀 Features
+
+- React useState Hook
+- Increment Counter
+- Decrement Counter
+- Reset Counter
+- Dynamic UI Updates
+- Conditional Rendering using Ternary Operator
+- Beginner-Friendly Interface
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- Vite
+- JSX
+- Inline CSS
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📸 Project Preview
+
+### Increment
+
+![Increment](Screenshots/Increment.png)
+
+---
+
+### Decrement
+
+![Decrement](Screenshots/Decrement.png)
+
+---
+
+### Reset
+
+![Reset](Screenshots/Reset.png)
+
+---
+
+## 💡 React Concepts Used
+
+- Functional Components
+- useState Hook
+- Event Handling
+- State Management
+- Conditional Styling
+- JSX
+
+---
+
+## ⚙️ How It Works
+
+- **Increment** increases the counter by **1**.
+- **Decrement** decreases the counter by **1**.
+- **Reset** sets the counter back to **0**.
+- Counter color changes dynamically:
+  - Green → Positive or Zero
+  - Red → Negative
+
+---
+
+## ▶️ Run the Project
+
+Clone the repository
+
+```bash
+git clone <repository-link>
+```
+
+Go to the project directory
+
+```bash
+cd Counter-App
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Learning Outcome
+
+By building this project, I learned:
+
+- React useState Hook
+- Managing State
+- Updating UI Dynamically
+- Handling Button Click Events
+- Conditional Rendering
+- React Component Basics
+
+---
+
+## 👨‍💻 Author
+
+**Saiyam Kumar**
+
+Learning React.js 🚀
