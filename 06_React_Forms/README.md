@@ -1,16 +1,96 @@
-# React + Vite
+# 📝 React Form Handling
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application built with **React** and **Vite** that demonstrates **form handling using the `useState` hook**. This project captures user input for **Name**, **Email**, and **Message**, and logs the submitted data to the browser console.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Controlled components using `useState`
+- Handles multiple form fields
+- Form submission using `onSubmit`
+- Prevents page refresh with `preventDefault()`
+- Logs submitted form data to the browser console
+- Beginner-friendly React project
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+react-form-handling/
+│
+├── src/
+│   ├── components/
+│   │   └── FormHandling.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd react-form-handling
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal (usually `http://localhost:5173`).
+
+## 📸 Screenshot
+
+![Project Screenshot](Screenshots/Image1.png)
+
+## 📚 Concepts Covered
+
+- React Components
+- JSX
+- `useState` Hook
+- Controlled Components
+- Form Handling
+- Event Handling
+- `onChange`
+- `onSubmit`
+- `preventDefault()`
+
+## 🎯 Learning Outcome
+
+Through this project, I learned how to:
+
+- Manage form inputs using React state
+- Handle user input with controlled components
+- Submit forms without refreshing the page
+- Capture and process form data efficiently
+
+## 👨‍💻 Author
+
+**Saiyam Kumar**
+
+If you like this project, don't forget to ⭐ the repository!
