@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import "./Stopwatch.css";
 
 function Stopwatch() {
-  const [time, setTime] = useState(0);
-  const [running, setRunning] = useState(false);
+  const [time, setTime] = useState(0); //Stores elapsed time in milliseconds.
+  const [running, setRunning] = useState(false); //Stores whether the stopwatch is running.
 
   useEffect(() => {
     let interval;
@@ -15,7 +15,7 @@ function Stopwatch() {
     }
 
     return () => clearInterval(interval);
-  }, [running]);
+  }, [running]); //Whenever running changes, execute this effect.
 
   const minutes = Math.floor(time / 60000);
   const seconds = Math.floor((time % 60000) / 1000);
